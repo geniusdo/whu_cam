@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>whu_cam</name>
+  <version>0.0.0</version>
+  <description>A package</description>
+  <maintainer email="2403644992@qq.com">lalala</maintainer>
+  <author>Zhang Yang, Liu Chuang ye</author>
+  <license>BSD-3</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>tf</build_depend>
+  <run_depend>tf</run_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <run_depend>sensor_msgs</run_depend>
+</package>

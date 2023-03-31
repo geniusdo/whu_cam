@@ -1,0 +1,26 @@
+Control_mode: 1 #0-frame control，1- PWM control
+Pwm_fre: 20 #pwm frequency
+Duty: 0.5 # pwm duty
+Frequency: 50
+Exposure_T: 16000.0 #ns
+Gamma: 1.0
+Resolution: 0 #0-640*512 1-1280*1024
+Balance_ratio:
+  r: 1.0
+  g: 1.0
+  b: 1.0
+Gain: 3
+Camera_style: ann
+Left_cam:
+  intrinsics: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  distortion: [1, 2, 3, 4]
+  Cam_p: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] #Tx=Ty=0
+Right_cam:
+  intrinsics: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+  distortion: [0, 0, 0, 0]
+  Cam_p: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  #P =[fx'  0  cx' Tx]
+  #   [ 0  fy' cy' Ty]
+  #   [ 0   0   1   0]
+  #   Ty=0;Tx=-fx*B
+Cam_r: [1, 0, 0, 0, 1, 0, 0, 0, 1]
